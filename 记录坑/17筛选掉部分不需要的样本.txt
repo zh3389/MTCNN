@@ -1,0 +1,1 @@
+self.face_index = torch.ne(self.face_label, 2).view(self.face_label.size(0))

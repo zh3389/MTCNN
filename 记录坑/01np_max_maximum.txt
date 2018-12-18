@@ -1,0 +1,19 @@
+1. 参数
+首先比较二者的参数部分：
+
+np.max：(a, axis=None, out=None, keepdims=False) 
+求序列的最值
+最少接收一个参数
+axis：默认为列向（也即 axis=0），axis = 1 时为行方向的最值；
+np.maximum：(X, Y, out=None) 
+X 与 Y 逐位比较取其大者；
+最少接收两个参数
+2. 使用上
+>> np.max([-2, -1, 0, 1, 2])
+2
+
+>> np.maximum([-2, -1, 0, 1, 2], 0)
+array([0, 0, 0, 1, 2])
+
+        # 当然 np.maximum 接受的两个参数，也可以大小一致
+        # 或者更为准确地说，第二个参数只是一个单独的值时，其实是用到了维度的 broadcast 机制；

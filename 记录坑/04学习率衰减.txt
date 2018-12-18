@@ -1,0 +1,6 @@
+mobility_ratio = 0.2  # 定义一个初始化学习率
+
+for i in range(100):  # 学习率衰减次数
+    if i != 0:  # 当 i = 0 的时候不衰减
+        mobility_ratio *= 0.98 ** i  # 下一步学习率 = 当前学习率 * (0.98(衰减比率) ** 2) # 衰减比率的平方
+    print(mobility_ratio)  # 打印出当前的学习率

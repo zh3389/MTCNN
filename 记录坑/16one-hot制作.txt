@@ -1,0 +1,10 @@
+    def one_hot(self, data):
+        '''
+        :param data: 传入需要转为one-hot的数据
+        :return: 转换好的one-hot
+        '''
+        data = np.array(data)
+        data = (np.arange(2) == data[:, None]).astype(np.float)
+        data = torch.Tensor(data)
+        data = data.view(data.size(0), -1)
+        return data

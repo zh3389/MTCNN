@@ -1,0 +1,21 @@
+import numpy as np
+
+a = np.arange(5*5).reshape(1, 5, 5)  # 造出5*5的假数据 reshape成[1, 5, 5]的
+print(a)
+
+for i in a:  # 看一下 in a 取出的形状是什么样的
+    print(i)
+    print(i[0], i[1], i[2], i[3], i[4])  # 再看一下每次取出的数据是什么样的
+
+a = np.arange(9).reshape(3, 3)  # 造出3*3的假数据 reshape成[3, 3]的形状
+b = np.arange(10, 19).reshape(3, 3)  # 造出3*3的假数据 reshape成[3, 3]的形状
+
+
+c = np.stack((a, b), axis=0)  # 将两个数组链接到一个数组里
+c = c.transpose((1, 0, 2))  # 轴转置
+c = c.reshape(-1, 6)  # reshape成 我们需要的形状
+print(c)
+# 输出:
+# [[ 0  1  2 10 11 12]
+#  [ 3  4  5 13 14 15]
+#  [ 6  7  8 16 17 18]]

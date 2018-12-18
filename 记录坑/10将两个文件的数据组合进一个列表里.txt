@@ -1,0 +1,10 @@
+import os
+
+path = r"D:/test/"
+name = "utils.py"
+name2 = "utils2.py"
+
+c = []
+c.extend(open(os.path.join(path, name)).readlines())  # 将两个文件的内容 组合到了一起
+c.extend(open(os.path.join(path, name)).readlines())  # 将两个文件的内容 组合到了一起
+print(c)

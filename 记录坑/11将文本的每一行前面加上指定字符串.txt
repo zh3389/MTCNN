@@ -1,0 +1,7 @@
+with open("negative.txt", "r") as f1:  # 打开一个文本文件
+    cNames = f1.readlines()  # 将这个文本本件 按行存入列表
+    for i in range(0, len(cNames)):  # 遍历这个列表
+        cNames[i] = "negative/" + cNames[i]  # 将这个列表的每行前面加上指定的字符串
+
+with open("negative_b.txt", "w") as f2:  # 新建一个文本文件
+    f2.writelines(cNames)  # 将这个加好字符串的文件写入本地文件

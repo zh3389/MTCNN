@@ -1,0 +1,4 @@
+_x1 = (start_index[1].float() * stride) / scale  # 计算原图框的x1
+_y1 = (start_index[0].float() * stride) / scale  # 计算原图框的y1
+_x2 = (start_index[1].float() * stride + side_len) / scale  # 计算原图框的x2
+_y2 = (start_index[0].float() * stride + side_len) / scale  # 计算原图框的y2
