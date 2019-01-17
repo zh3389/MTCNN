@@ -1,4 +1,4 @@
-# MTCNN_Demo
+# MTCNN
 Mtcnn->思维导图->开发步骤->成品->效果图
 
 xmind文件  
