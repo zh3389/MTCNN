@@ -13,3 +13,10 @@ Mtcnn->思维导图->开发步骤->成品->效果图
 如有侵犯肖像权联系我删除.  zhanghao_3389@163.com
 
 ![example](./MtcnnFinal/效果图.jpg)
+
+
+
+项目思路拆分:
+
+![MTCNN](Mtcnn_Step/参考资料/MTCNN.png)
+
