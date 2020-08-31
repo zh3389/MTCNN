@@ -1,4 +1,6 @@
 # MTCNN
+**如果本项目对你 从零实现一片论文 有帮助. 欢迎Start...**
+
 Mtcnn->思维导图->开发步骤->成品->效果图
 
 [项目思路 xmind文件](https://github.com/Mrzhang3389/MTCNN/blob/master/Mtcnn_Step/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/MTCNN.xmind)  
