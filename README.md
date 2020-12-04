@@ -1,7 +1,7 @@
 # 如何从零实现一篇论文 MTCNN
 **如果本项目对你 从零实现一片论文 有帮助. 欢迎Start...**
 
-实现详细过程: [GitHub Pages](https://mrzhang3389.github.io/MTCNN/)
+实现详细过程参考: [我的GitHub Pages](https://mrzhang3389.github.io/MTCNN/)
 
 Mtcnn->思维导图->开发步骤->成品->效果图
 成品代码参考: [MTCNN_Final](https://github.com/Mrzhang3389/MTCNN/tree/master/MtcnnFinal)  
